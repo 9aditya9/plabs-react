@@ -1,6 +1,6 @@
 import './App.css';
-import Form from './components/form';
-import { BrowserRouter as Router, Route, Switch, withRouter } from 'react-router-dom'
+import Form from './components/Form';
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom'
 import Users from './components/Users'
 
 function App() {
