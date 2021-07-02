@@ -19,7 +19,6 @@ function App() {
         path="/plabs-react/users"
         exact
         component={Users}
-        // render={(props) => }
         />
       </Switch>
     </div>
