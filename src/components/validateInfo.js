@@ -27,7 +27,7 @@ export default function validateInfo(values){
 		// console.log(event.target.name)
 		if (before.getTime() < age.getTime()) {
 			errors.dob = 'You should be 18 years old'
-			console.log(values.dob)
+			// console.log(values.dob)
 		}
 	}
 	return errors;

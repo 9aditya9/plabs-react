@@ -4,7 +4,7 @@ import React, { useEffect, useState } from 'react';
 const Users = () => {
 	const [allUsers, SetAllUsers] = useState([])
 	useEffect(() => {
-		axios.get("http://127.0.0.1:5000/users")
+		axios.get("https://plabs-react.herokuapp.com/users")
 			.then(res => SetAllUsers(res.data))
 			.catch(error => alert('error', error))
 	}, [])

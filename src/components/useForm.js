@@ -20,9 +20,9 @@ const useForm = (props, validate) => {
 			...values,
 			[name]: value,
 		})
-		console.log(values);
+		// console.log(values);
 		// 	setErrors(validate(values))
-		console.log(errors)
+		// console.log(errors)
 	}
 
 	// handling form submission
@@ -34,7 +34,7 @@ const useForm = (props, validate) => {
 	
 	function submitToApi(){
 			axios
-				.post("http://127.0.0.1:5000/", values)
+				.post("https://plabs-react.herokuapp.com/", values)
 				.then((response) => {
 					// console.log(response);
 					if (response.status === 200)
@@ -43,7 +43,7 @@ const useForm = (props, validate) => {
 					console.log('error occured', error.response)
 					// alert('error occured')
 					setErrors({...errors, 'phoneNumber': error.response.data})
-					console.log(errors)
+					// console.log(errors)
 				})
 	}
 
