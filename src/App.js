@@ -8,15 +8,15 @@ function App() {
     <Router>
 
     <div className="App">
-      <div><h1>hello</h1></div>
+      {/* <div><h1>hello</h1></div> */}
       <Switch>
         <Route 
-        path="/"
+        path="/plabs-react"
         exact
         component={Form}
         />
         <Route
-        path="/users"
+        path="/plabs-react/users"
         exact
         component={Users}
         // render={(props) => }
