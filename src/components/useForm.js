@@ -38,7 +38,7 @@ const useForm = (props, validate) => {
 				.then((response) => {
 					// console.log(response);
 					if (response.status === 200)
-						props.history.push("/users");
+						props.history.push("/plabs-react/users");
 				}).catch(error => {
 					console.log('error occured', error.response)
 					// alert('error occured')
