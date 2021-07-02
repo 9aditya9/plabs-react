@@ -1,6 +1,6 @@
 {
-  "name": "plabs-react",
   "homepage": "https://9aditya9.github.io/plabs-react/",
+  "name": "plabs-react",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
