@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/plabs-react/static/css/main.9d5b29c0.chunk.css",
+    "main.js": "/plabs-react/static/js/main.fb0bca49.chunk.js",
+    "main.js.map": "/plabs-react/static/js/main.fb0bca49.chunk.js.map",
+    "runtime-main.js": "/plabs-react/static/js/runtime-main.1b0f2c72.js",
+    "runtime-main.js.map": "/plabs-react/static/js/runtime-main.1b0f2c72.js.map",
+    "static/js/2.954eff9c.chunk.js": "/plabs-react/static/js/2.954eff9c.chunk.js",
+    "static/js/2.954eff9c.chunk.js.map": "/plabs-react/static/js/2.954eff9c.chunk.js.map",
+    "static/js/3.2ba5f6b6.chunk.js": "/plabs-react/static/js/3.2ba5f6b6.chunk.js",
+    "static/js/3.2ba5f6b6.chunk.js.map": "/plabs-react/static/js/3.2ba5f6b6.chunk.js.map",
+    "index.html": "/plabs-react/index.html",
+    "static/css/main.9d5b29c0.chunk.css.map": "/plabs-react/static/css/main.9d5b29c0.chunk.css.map",
+    "static/js/2.954eff9c.chunk.js.LICENSE.txt": "/plabs-react/static/js/2.954eff9c.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.1b0f2c72.js",
+    "static/js/2.954eff9c.chunk.js",
+    "static/css/main.9d5b29c0.chunk.css",
+    "static/js/main.fb0bca49.chunk.js"
+  ]
+}
